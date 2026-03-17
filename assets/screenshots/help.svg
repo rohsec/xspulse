@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="986" height="1292" viewBox="0 0 986 1292">
+<rect width="100%" height="100%" fill="#0d1117"/>
+<rect x="14" y="14" width="958" height="1264" rx="14" fill="#161b22" stroke="#30363d"/>
+<circle cx="38" cy="39" r="7" fill="#ff5f56"/>
+<circle cx="60" cy="39" r="7" fill="#ffbd2e"/>
+<circle cx="82" cy="39" r="7" fill="#27c93f"/>
+<text x="493.0" y="45" text-anchor="middle" fill="#8b949e" font-family="DejaVu Sans Mono, monospace" font-size="18">XSPulse help</text>
+
+<text x="28" y="64" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"></text>
+<text x="28" y="88" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  _  ______ ___      __   </text>
+<text x="28" y="112" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"> | |/ / __// _ \__  / /___</text>
+<text x="28" y="136" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"> |   /\ \ / ___/ /_/ /(_-&lt;</text>
+<text x="28" y="160" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"> |_|_/___//_/   \__,_/___/</text>
+<text x="28" y="184" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"></text>
+<text x="28" y="208" fill="#bc8cff" font-family="DejaVu Sans Mono, monospace" font-size="18"> Created by ROHIT (https://rohsec.com)</text>
+<text x="28" y="232" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">XSPulse - fast Go XSS assessment toolkit</text>
+<text x="28" y="256" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"></text>
+<text x="28" y="280" fill="#79c0ff" font-family="DejaVu Sans Mono, monospace" font-size="18">Usage:</text>
+<text x="28" y="304" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse &lt;command&gt; [flags]</text>
+<text x="28" y="328" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse help &lt;command&gt;</text>
+<text x="28" y="352" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"></text>
+<text x="28" y="376" fill="#79c0ff" font-family="DejaVu Sans Mono, monospace" font-size="18">Subcommands:</text>
+<text x="28" y="400" fill="#3fb950" font-family="DejaVu Sans Mono, monospace" font-size="18">  scan        Context-aware reflected XSS scan with payload ranking</text>
+<text x="28" y="424" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  crawl       Crawl, dedupe, enumerate forms, and optionally scan them</text>
+<text x="28" y="448" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  fuzz        Fuzz parameters with built-in breaker payloads</text>
+<text x="28" y="472" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  bruteforce  Replay payloads from a file against parameters</text>
+<text x="28" y="496" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  dom         Heuristic DOM XSS source/sink analysis</text>
+<text x="28" y="520" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  waf         Fingerprint common WAFs with a probe request</text>
+<text x="28" y="544" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  version     Show version</text>
+<text x="28" y="568" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  help        Show root help or subcommand help</text>
+<text x="28" y="592" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"></text>
+<text x="28" y="616" fill="#79c0ff" font-family="DejaVu Sans Mono, monospace" font-size="18">Feature summary:</text>
+<text x="28" y="640" fill="#8b949e" font-family="DejaVu Sans Mono, monospace" font-size="18">  - Reflected XSS scanning with context classification</text>
+<text x="28" y="664" fill="#8b949e" font-family="DejaVu Sans Mono, monospace" font-size="18">  - Blind XSS callback payload injection</text>
+<text x="28" y="688" fill="#8b949e" font-family="DejaVu Sans Mono, monospace" font-size="18">  - DOM XSS heuristics</text>
+<text x="28" y="712" fill="#8b949e" font-family="DejaVu Sans Mono, monospace" font-size="18">  - RetireJS-style JS library/version detection</text>
+<text x="28" y="736" fill="#8b949e" font-family="DejaVu Sans Mono, monospace" font-size="18">  - WAF fingerprinting</text>
+<text x="28" y="760" fill="#8b949e" font-family="DejaVu Sans Mono, monospace" font-size="18">  - Crawl canonicalization + synthetic GET-form extraction + form dedupe</text>
+<text x="28" y="784" fill="#8b949e" font-family="DejaVu Sans Mono, monospace" font-size="18">  - Fuzzing and bruteforce modes</text>
+<text x="28" y="808" fill="#8b949e" font-family="DejaVu Sans Mono, monospace" font-size="18">  - JSON and terminal output</text>
+<text x="28" y="832" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"></text>
+<text x="28" y="856" fill="#79c0ff" font-family="DejaVu Sans Mono, monospace" font-size="18">Quick examples:</text>
+<text x="28" y="880" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse scan -u &#x27;https://target.tld/search?q=test&#x27;</text>
+<text x="28" y="904" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse scan -u &#x27;https://target.tld/login&#x27; --data &#x27;user=a&amp;pass=b&#x27; -X POST</text>
+<text x="28" y="928" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse scan -u &#x27;https://target.tld/search?q=test&#x27; --blind-callback &#x27;https://bx.example/cb&#x27;</text>
+<text x="28" y="952" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse crawl -u &#x27;https://target.tld&#x27; --depth 2 --scan</text>
+<text x="28" y="976" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse fuzz -u &#x27;https://target.tld/search?q=test&#x27;</text>
+<text x="28" y="1000" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse bruteforce -u &#x27;https://target.tld/search?q=test&#x27; -p payloads.txt</text>
+<text x="28" y="1024" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse dom -u &#x27;https://target.tld/app&#x27;</text>
+<text x="28" y="1048" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse waf -u &#x27;https://target.tld&#x27;</text>
+<text x="28" y="1072" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"></text>
+<text x="28" y="1096" fill="#79c0ff" font-family="DejaVu Sans Mono, monospace" font-size="18">For detailed command help:</text>
+<text x="28" y="1120" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse help scan</text>
+<text x="28" y="1144" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse help crawl</text>
+<text x="28" y="1168" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse help fuzz</text>
+<text x="28" y="1192" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse help bruteforce</text>
+<text x="28" y="1216" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse help dom</text>
+<text x="28" y="1240" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  xspulse help waf</text>
+</svg>

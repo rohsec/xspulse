@@ -5,6 +5,22 @@ It was built as a modern, cleaner, and more maintainable alternative to slower P
 
 Created by ROHIT (https://rohsec.com)
 
+## Screenshots
+
+### Banner and help menu
+
+![XSPulse help menu](assets/screenshots/help.svg)
+
+### Reflected XSS scan demo
+
+The screenshot below was generated against a simple demo reflection target to show real scan output formatting.
+
+![XSPulse scan demo](assets/screenshots/scan-demo.svg)
+
+### Crawl demo
+
+![XSPulse crawl demo](assets/screenshots/crawl-demo.svg)
+
 ## What XSPulse does
 
 XSPulse currently supports:

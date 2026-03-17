@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
+<rect width="100%" height="100%" fill="#0d1117"/>
+<rect x="14" y="14" width="932" height="472" rx="14" fill="#161b22" stroke="#30363d"/>
+<circle cx="38" cy="39" r="7" fill="#ff5f56"/>
+<circle cx="60" cy="39" r="7" fill="#ffbd2e"/>
+<circle cx="82" cy="39" r="7" fill="#27c93f"/>
+<text x="480.0" y="45" text-anchor="middle" fill="#8b949e" font-family="DejaVu Sans Mono, monospace" font-size="18">XSPulse scan demo</text>
+
+<text x="28" y="64" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"></text>
+<text x="28" y="88" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">  _  ______ ___      __   </text>
+<text x="28" y="112" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"> | |/ / __// _ \__  / /___</text>
+<text x="28" y="136" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"> |   /\ \ / ___/ /_/ /(_-&lt;</text>
+<text x="28" y="160" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"> |_|_/___//_/   \__,_/___/</text>
+<text x="28" y="184" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"></text>
+<text x="28" y="208" fill="#bc8cff" font-family="DejaVu Sans Mono, monospace" font-size="18"> Created by ROHIT (https://rohsec.com)</text>
+<text x="28" y="232" fill="#58a6ff" font-family="DejaVu Sans Mono, monospace" font-size="18">[scan]</text>
+<text x="28" y="256" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">target: http://127.0.0.1:18999/?q=test</text>
+<text x="28" y="280" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18">method: GET</text>
+<text x="28" y="304" fill="#3fb950" font-family="DejaVu Sans Mono, monospace" font-size="18">waf: not detected</text>
+<text x="28" y="328" fill="#c9d1d9" font-family="DejaVu Sans Mono, monospace" font-size="18"></text>
+<text x="28" y="352" fill="#f85149" font-family="DejaVu Sans Mono, monospace" font-size="18">[1] param=q confidence=100</text>
+<text x="28" y="376" fill="#f85149" font-family="DejaVu Sans Mono, monospace" font-size="18">payload: &lt;/script&gt;&lt;svg/onload=confirm()&gt;</text>
+<text x="28" y="400" fill="#8b949e" font-family="DejaVu Sans Mono, monospace" font-size="18">  - context=html tag=div attr= snippet=&quot;__XSPULSE_MARKER__&quot;</text>
+<text x="28" y="424" fill="#8b949e" font-family="DejaVu Sans Mono, monospace" font-size="18">  - context=attribute tag=input attr=value snippet=&quot;__XSPULSE_MARKER__&quot;</text>
+<text x="28" y="448" fill="#8b949e" font-family="DejaVu Sans Mono, monospace" font-size="18">  - context=script tag=script attr= snippet=&quot;var demo = &#x27;__XSPULSE_MARKER__&#x27;;&quot;</text>
+</svg>
