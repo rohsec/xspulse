@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/rynosec/xspulse/internal/waf"
+	"github.com/rohsec/xspulse/internal/waf"
 )
 
 func RunWAF(args []string) error {

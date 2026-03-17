@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/net/html"
 
-	"github.com/rynosec/xspulse/internal/model"
+	"github.com/rohsec/xspulse/internal/model"
 )
 
 func FindReflections(body []byte, marker string) []model.Reflection {

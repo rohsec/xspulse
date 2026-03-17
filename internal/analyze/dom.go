@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/rynosec/xspulse/internal/model"
+	"github.com/rohsec/xspulse/internal/model"
 )
 
 var domSources = regexp.MustCompile(`(?i)\b(document\.(URL|documentURI|baseURI|cookie|referrer)|location\.(href|search|hash|pathname)|window\.name|localStorage|sessionStorage)\b`)

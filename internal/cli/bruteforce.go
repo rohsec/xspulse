@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/rynosec/xspulse/internal/target"
+	"github.com/rohsec/xspulse/internal/target"
 )
 
 func RunBruteforce(args []string) error {

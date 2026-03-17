@@ -3,7 +3,7 @@
 XSPulse is a fast Go-based XSS assessment toolkit created by RYNO.
 It was built as a modern, cleaner, and more maintainable alternative to slower Python-heavy workflows, with a focus on practical bug bounty recon and XSS testing.
 
-Created by RYNO (x.com/rynosec)
+Created by RYNO (x.com/rohsec)
 
 ## What XSPulse does
 
@@ -37,7 +37,7 @@ go build -o xspulse ./cmd/xspulse
 Direct install with `go install`:
 
 ```bash
-go install -v github.com/rynosec/xspulse/cmd/xspulse@latest
+go install -v github.com/rohsec/xspulse/cmd/xspulse@latest
 ```
 
 Optional install into PATH after local build:

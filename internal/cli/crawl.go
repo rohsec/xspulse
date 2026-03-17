@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/rynosec/xspulse/internal/crawl"
-	"github.com/rynosec/xspulse/internal/model"
-	"github.com/rynosec/xspulse/internal/scan"
+	"github.com/rohsec/xspulse/internal/crawl"
+	"github.com/rohsec/xspulse/internal/model"
+	"github.com/rohsec/xspulse/internal/scan"
 )
 
 func RunCrawl(args []string) error {

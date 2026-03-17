@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/rynosec/xspulse/internal/httpx"
-	"github.com/rynosec/xspulse/internal/model"
+	"github.com/rohsec/xspulse/internal/httpx"
+	"github.com/rohsec/xspulse/internal/model"
 )
 
 type signature struct {

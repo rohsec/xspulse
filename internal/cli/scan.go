@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/rynosec/xspulse/internal/scan"
+	"github.com/rohsec/xspulse/internal/scan"
 )
 
 func RunScan(args []string) error {

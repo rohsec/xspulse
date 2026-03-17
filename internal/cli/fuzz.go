@@ -7,8 +7,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/rynosec/xspulse/internal/payloads"
-	"github.com/rynosec/xspulse/internal/target"
+	"github.com/rohsec/xspulse/internal/payloads"
+	"github.com/rohsec/xspulse/internal/target"
 )
 
 func RunFuzz(args []string) error {

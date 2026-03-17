@@ -6,12 +6,12 @@ import (
 	"io"
 	"strings"
 
-	"github.com/rynosec/xspulse/internal/analyze"
-	"github.com/rynosec/xspulse/internal/httpx"
-	"github.com/rynosec/xspulse/internal/model"
-	"github.com/rynosec/xspulse/internal/payloads"
-	"github.com/rynosec/xspulse/internal/target"
-	"github.com/rynosec/xspulse/internal/waf"
+	"github.com/rohsec/xspulse/internal/analyze"
+	"github.com/rohsec/xspulse/internal/httpx"
+	"github.com/rohsec/xspulse/internal/model"
+	"github.com/rohsec/xspulse/internal/payloads"
+	"github.com/rohsec/xspulse/internal/target"
+	"github.com/rohsec/xspulse/internal/waf"
 )
 
 const Marker = "__XSPULSE_MARKER__"

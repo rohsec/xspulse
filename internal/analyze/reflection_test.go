@@ -3,7 +3,7 @@ package analyze
 import (
 	"testing"
 
-	"github.com/rynosec/xspulse/internal/model"
+	"github.com/rohsec/xspulse/internal/model"
 )
 
 func TestFindReflectionsCapturesAttributeMetadata(t *testing.T) {

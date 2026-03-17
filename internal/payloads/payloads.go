@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"sort"
 
-	"github.com/rynosec/xspulse/internal/model"
+	"github.com/rohsec/xspulse/internal/model"
 )
 
 var commonVectors = []string{

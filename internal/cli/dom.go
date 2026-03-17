@@ -7,7 +7,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/rynosec/xspulse/internal/analyze"
+	"github.com/rohsec/xspulse/internal/analyze"
 )
 
 func RunDOM(args []string) error {
