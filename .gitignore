@@ -1,4 +1,4 @@
-xspulse
+/xspulse
 *.out
 *.test
 coverage.txt
