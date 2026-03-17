@@ -36,16 +36,8 @@ go build -o xspulse ./cmd/xspulse
 
 Direct install with `go install`:
 
-Once the repository is published, XSPulse can also be installed directly with Go using the module path for the repo:
-
 ```bash
-go install -v <module-path>/cmd/xspulse@latest
-```
-
-Example format:
-
-```bash
-go install -v github.com/OWNER/REPO/cmd/xspulse@latest
+go install -v github.com/rynosec/xspulse/cmd/xspulse@latest
 ```
 
 Optional install into PATH after local build:
