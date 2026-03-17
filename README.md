@@ -1,9 +1,9 @@
 # XSPulse
 
-XSPulse is a fast Go-based XSS assessment toolkit created by RYNO.
+XSPulse is a fast Go-based XSS assessment toolkit created by ROHIT.
 It was built as a modern, cleaner, and more maintainable alternative to slower Python-heavy workflows, with a focus on practical bug bounty recon and XSS testing.
 
-Created by RYNO (x.com/rohsec)
+Created by ROHIT (https://rohsec.com)
 
 ## What XSPulse does
 
