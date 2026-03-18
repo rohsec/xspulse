@@ -1,4 +1,5 @@
 /xspulse
+docs/plans/
 *.out
 *.test
 coverage.txt
